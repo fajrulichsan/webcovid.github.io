@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB COVID 19</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-body">
+    <div class="h-screen grid grid-cols-12 grid-rows-6">
+        <div class="col-span-12 row-span-6 bg-body">
+
+            <!-- navbar -->
+            <div class="flex flex-row w-full h-auto justify-between md:px-24 py-2 px-3 md:py-4 navbar-bg-color">
+                <div class="flex flex-row w-auto md:space-x-3 my-auto ">
+                    <div class="w-auto h-auto space-x-1 md:space-x-2 flex flex-row">
+                        <img class="w-6 h-6 md:w-12 md:h-12 " src="img/logo payakumbuh.png" alt="">
+                        <img class="w-6 h-6 md:w-12 md:h-12 " src="img/Group 1.png" alt="">
+                        <img class="w-6 h-6 md:w-12 md:h-12 " src="img/logo unand 1.png" alt="">
+                        <img class="w-6 h-6 md:w-12 md:h-12 " src="img/Logo KKN Unand 2021 1.png" alt="">
+                    </div>
+                    <h1 class="text-8 md:text-lg font-medium py-1 text-left md:py-3 hidden md:block text-white">Created
+                        by <span class="font-bold">
+                            Mahasiswa KKN
+                            Unand
+                            2021</span></h1>
+                </div>
+                <div class="flex flex-row w-auto space-x-2 md:space-x-3 py-3">
+                    <img class="w-4 h-4 md:w-8 md:h-8" src="img/Vector.png" alt="">
+                    <h1 class="text-white text-10 md:text-xl font-medium ">Dashboard Covid-19</h1>
+                </div>
+            </div>
+
+            <!-- overview -->
+            <div class="flex flex-col px-3 md:px-24 mt-3 md:mt-5 space-y-3 ">
+                <h1 class="text-white text-sm  md:text-3xl font-bold">Overview</h1>
+                <div class="w-full h-52 md:h-80 rounded-xl">
+                    <div class="slideshow-container">
+                        <div class="mySlides fade relative">
+                            <img src="img/sumbar.png" style="width:100%">
+                            <div class="inset-0 flex flex-row-reverse absolute  bg-opacity-25">
+                                <div class="w-1/2 pr-3 md:pr-0  ">
+                                    <div class="flex flex-col space-y-2 md:space-y-8 h-full justify-center">
+                                        <div class="flex flex-row space-x-3 md:space-x-8">
+                                            <div
+                                                class="border-2 flex flex-col justify-center border-gray-200 text-white w-40 md:w-52 py-1 md:py-4 text-center rounded-xl md:rounded-2xl">
+                                                <h1 class="text-sm md:text-5xl font-semibold">2000</h1>
+                                                <p class="text-10 md:text-md font-medium">Kasus</p>
+                                            </div>
+                                            <div
+                                                class="border-2 border-gray-200 text-white w-40 md:w-52 py-1 md:py-4 text-center rounded-xl md:rounded-2xl">
+                                                <h1 class="text-sm md:text-5xl font-semibold">90</h1>
+                                                <p class="text-10 md:text-md font-medium">Vaksin</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-row space-x-3 md:space-x-8">
+                                            <div
+                                                class="border-2 border-gray-200 text-white w-40 md:w-52 py-1 md:py-4 text-center rounded-xl md:rounded-2xl">
+                                                <h1 class="text-sm md:text-5xl font-semibold">100</h1>
+                                                <p class="text-10 md:text-md font-medium">Meninggal</p>
+                                            </div>
+                                            <div
+                                                class="border-2 border-gray-200 text-white w-40 md:w-52 py-1 md:py-4 text-center rounded-xl md:rounded-2xl">
+                                                <h1 class="text-sm md:text-5xl font-semibold">800</h1>
+                                                <p class="text-10 md:text-md font-medium">Sembuh</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mySlides fade hidden">
+                            <img src="img/payakumbuh.png" style="width:100%">
+                            <div class="inset-0 flex flex-row-reverse absolute  bg-opacity-25">
+                                <div class="w-1/2 pr-3 md:pr-0  ">
+                                    <div class="flex flex-col space-y-2 md:space-y-8 h-full justify-center">
+                                        <div class="flex flex-row space-x-3 md:space-x-8">
+                                            <div
+                                                class="border-2 flex flex-col justify-center border-gray-200 text-white w-40 md:w-52 py-1 md:py-4 text-center rounded-xl md:rounded-2xl">
+                                                <h1 class="text-sm md:text-5xl font-semibold">500</h1>
+                                                <p class="text-10 md:text-md font-medium">Kasus</p>
+                                            </div>
+                                            <div
+                                                class="border-2 border-gray-200 text-white w-40 md:w-52 py-1 md:py-4 text-center rounded-xl md:rounded-2xl">
+                                                <h1 class="text-sm md:text-5xl font-semibold">40</h1>
+                                                <p class="text-10 md:text-md font-medium">Vaksin</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-row space-x-3 md:space-x-8">
+                                            <div
+                                                class="border-2 border-gray-200 text-white w-40 md:w-52 py-1 md:py-4 text-center rounded-xl md:rounded-2xl">
+                                                <h1 class="text-sm md:text-5xl font-semibold">20</h1>
+                                                <p class="text-10 md:text-md font-medium">Meninggal</p>
+                                            </div>
+                                            <div
+                                                class="border-2 border-gray-200 text-white w-40 md:w-52 py-1 md:py-4 text-center rounded-xl md:rounded-2xl">
+                                                <h1 class="text-sm md:text-5xl font-semibold">15</h1>
+                                                <p class="text-10 md:text-md font-medium">Sembuh</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mySlides fade hidden">
+                            <img src="img/latina.png" style="width:100%">
+                            <div class="inset-0 flex flex-row-reverse absolute  bg-opacity-25">
+                                <div class="w-1/2 pr-3 md:pr-0  ">
+                                    <div class="flex flex-col space-y-2 md:space-y-8 h-full justify-center">
+                                        <div class="flex flex-row space-x-3 md:space-x-8">
+                                            <div
+                                                class="border-2 flex flex-col justify-center border-gray-200 text-white w-40 md:w-52 py-1 md:py-4 text-center rounded-xl md:rounded-2xl">
+                                                <h1 class="text-sm md:text-5xl font-semibold">180</h1>
+                                                <p class="text-10 md:text-md font-medium">Kasus</p>
+                                            </div>
+                                            <div
+                                                class="border-2 border-gray-200 text-white w-40 md:w-52 py-1 md:py-4 text-center rounded-xl md:rounded-2xl">
+                                                <h1 class="text-sm md:text-5xl font-semibold">50</h1>
+                                                <p class="text-10 md:text-md font-medium">Vaksin</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-row space-x-3 md:space-x-8">
+                                            <div
+                                                class="border-2 border-gray-200 text-white w-40 md:w-52 py-1 md:py-4 text-center rounded-xl md:rounded-2xl">
+                                                <h1 class="text-sm md:text-5xl font-semibold">20</h1>
+                                                <p class="text-10 md:text-md font-medium">Meninggal</p>
+                                            </div>
+                                            <div
+                                                class="border-2 border-gray-200 text-white w-40 md:w-52 py-1 md:py-4 text-center rounded-xl md:rounded-2xl">
+                                                <h1 class="text-sm md:text-5xl font-semibold">18</h1>
+                                                <p class="text-10 md:text-md font-medium">Sembuh</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <br>
+
+                    <div class="w-full h-auto flex flex-row justify-center -mt-5 md:-mt-0">
+                        <div style="text-align:center navigation">
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- info sungai durian -->
+            <div class="flex flex-row justify-center -mt-12 md:mt-44">
+                <h1 class="text-base md:text-4xl font-bold text-white">Sungai Durian</h1>
+            </div>
+
+            <!-- card info covid -->
+            <div
+                class="flex flex-col md:flex-row w-full md:px-28 md:mt-10 mt-3 space-y-3 md:space-y-0 md:space-x-5 px-5 ">
+                <div class="flex flex-row w-full md:w-1/2 justify-evenly space-x-4 md:space-x-9">
+                    <div class=" w-1/2 h-20 md:w-60 md:h-28 bg-card-covid ">
+                        <div class="flex flex-row w-full h-full justify-between py-3 px-3">
+                            <div class="flex flex-col space-y-1 md:space-y-2 w-full">
+                                <h1 class="text-2xl md:text-5xl font-bold text-white text-center">1000</h1>
+                                <span class=" text-xs md:text-xl text-gray-300 text-center">Kasus</span>
+                            </div>
+                            <img class=" md:w-20 md:h-20" src="img/Group 7.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class=" w-1/2 h-20 md:w-60 md:h-28 bg-card-covid">
+                        <div class="flex flex-row w-full h-full justify-between py-3 px-3">
+                            <div class="flex flex-col space-y-1 md:space-y-2 w-full">
+                                <h1 class="text-2xl md:text-5xl  font-bold text-white text-center">650</h1>
+                                <span class="text-xs md:text-xl text-gray-300 text-center">Sembuh</span>
+                            </div>
+                            <img class="md:w-20 md:h-20" src="img/Group 8.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-row w-full md:w-1/2 justify-evenly space-x-4 md:space-x-9">
+                    <div class=" w-1/2 h-20 md:w-60 md:h-28 bg-card-covid">
+                        <div class="flex flex-row w-full h-full justify-between py-3 px-3">
+                            <div class="flex flex-col space-y-2 w-full">
+                                <h1 class="text-2xl md:text-5xl font-bold text-white text-center">10</h1>
+                                <span class="text-xs md:text-xl text-gray-300 text-center">Meninggal</span>
+                            </div>
+                            <img class="md:w-20 md:h-20" src="img/Group 7.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class=" w-1/2 h-20 md:w-60 md:h-28 bg-card-covid">
+                        <div class="flex flex-row w-full h-full justify-between py-3 px-3">
+                            <div class="flex flex-col space-y-2 w-full">
+                                <h1 class="text-2xl md:text-5xl font-bold text-white text-center">120</h1>
+                                <span class="text-xs md:text-xl text-gray-300 text-center">Vaksin</span>
+                            </div>
+                            <img class="md:w-20 md:h-20" src="img/Group 7.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- maps covid -->
+    <div class="h-auto grid grid-cols-12 grid-rows-3  md:gap-6 px-3 md:px-24 -mt-16 md:mt-60 bg-body ">
+        <div
+            class=" col-span-12 md:col-span-9 row-span-3 h-auto py-2 md:py-5 md:px-10 rounded-sm md:rounded-3xl md:bg-maps ">
+            <div class="w-full flex flex-col">
+                <h1 class="text-sm md:text-xl font-medium px-2 md:px-0 py-1 md:py-3 text-white">Area yang terinfeksi
+                </h1>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31918.341282589558!2d100.58893583283917!3d-0.205489574828301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd54cb9bd06efc9%3A0xfb9ab52c4163b334!2sPayakumbuh%20Lamposi%20Tigo%20Nagori%2C%20Kota%20Payakumbuh%2C%20Sumatera%20Barat!5e0!3m2!1sid!2sid!4v1626927647044!5m2!1sid!2sid"
+                    class="w-full h-60 md:h-96 rounded-sm md:rounded-3xl" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <div class="col-span-12 md:col-span-3 row-span-3 bg-walikota mt-8 md:mt-0 h-60 md:h-auto  ">
+            <div class="flex flex-col w-full h-full md:px-10 px-3  py-5">
+                <div class="bg-body px-2 py-1 w-32 rounded-lg text-center text-white text-base md:text-lg">Informasi
+                </div>
+                <div class="w-full md:px-0  md:w-60 mt-24 md:mt-56 text-lg md:text-2xl text-white">Mari bersama bertahan
+                    melawan Covid-19 dengan vaksin.</div>
+                <div class="flex flex-row space-x-3 justify-center mt-2 md:mt-5">
+                    <div class="w-3 h-3 md:w-5 md:h-5 bg-gray-600 rounded-full"></div>
+                    <div class="w-3 h-3 md:w-5 md:h-5 bg-gray-600 rounded-full"></div>
+                    <div class="w-3 h-3 md:w-5 md:h-5 bg-gray-600 rounded-full"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- tabel data -->
+    <div class="grid grid-rows-1 grid-flow-col md:gap-4 mt-2 md:mt-10 ">
+        <div class="col-span-1 row-span-1 bg-body px-3 md:px-24 mt-8 ">
+            <div class="flex flex-row justify-between ">
+                <h1 class="text-2xl md:text-4xl text-white font-bold py-2 md:py-5">Data </h1>
+                <img class="w-10 h-10 mt-2 md:mt-8 " src="img/filter.png" alt="">
+            </div>
+            <div class="w-full h-96 overflow-auto bg">
+                <table class=" w-full text-10 md:text-xl mt-2 font-color-table" cellpadding="8" cellspacing="10">
+                    <thead class="">
+                        <th class=" text-left">Nama</th>
+                        <th class=" text-left">Usia</th>
+                        <th class=" text-left">Gender</th>
+                        <th class=" text-left">Status</th>
+                        <th class=" text-left">Alamat</th>
+                    </thead>
+
+                    <tbody class="">
+                        <tr class="navbar-bg-color ">
+                            <td>Fajrul Ichsan Kamil</td>
+                            <td>21</td>
+                            <td>Laki-Laki</td>
+                            <td class="text-red-600">Positif</td>
+                            <td>Parik mungko aia</td>
+                        </tr>
+                        <tr class="bg-body ">
+                            <td>Adnan Suryadi</td>
+                            <td>21</td>
+                            <td>Laki-Laki</td>
+                            <td class=" text-yellow-400">Sembuh</td>
+                            <td>Suliki</td>
+                        </tr>
+                        <tr class="navbar-bg-color ">
+                            <td>Fajrul Ichsan Kamil</td>
+                            <td>21</td>
+                            <td>Laki-Laki</td>
+                            <td class="text-red-600">Positif</td>
+                            <td>Parik mungko aia</td>
+                        </tr>
+                        <tr class="bg-body ">
+                            <td>Adnan Suryadi</td>
+                            <td>21</td>
+                            <td>Laki-Laki</td>
+                            <td class=" text-yellow-400">Sembuh</td>
+                            <td>Suliki</td>
+                        </tr>
+                        <tr class="navbar-bg-color ">
+                            <td>Fajrul Ichsan Kamil</td>
+                            <td>21</td>
+                            <td>Laki-Laki</td>
+                            <td class="text-red-600">Positif</td>
+                            <td>Parik mungko aia</td>
+                        </tr>
+                        <tr class="bg-body ">
+                            <td>Adnan Suryadi</td>
+                            <td>21</td>
+                            <td>Laki-Laki</td>
+                            <td class=" text-yellow-400">Sembuh</td>
+                            <td>Suliki</td>
+                        </tr>
+                        <tr class="navbar-bg-color ">
+                            <td>Fajrul Ichsan Kamil</td>
+                            <td>21</td>
+                            <td>Laki-Laki</td>
+                            <td class="text-red-600">Positif</td>
+                            <td>Parik mungko aia</td>
+                        </tr>
+                        <tr class="bg-body  ">
+                            <td>Albi Boykhaair</td>
+                            <td>21</td>
+                            <td>Laki-Laki</td>
+                            <td class="text-blue-600">Vaksin</td>
+                            <td>Napar</td>
+                        </tr>
+                        <tr class="navbar-bg-color ">
+                            <td>Fajrul Ichsan Kamil</td>
+                            <td>21</td>
+                            <td>Laki-Laki</td>
+                            <td class="text-red-600">Positif</td>
+                            <td>Parik mungko aia</td>
+                        </tr>
+                        <tr class="bg-body  ">
+                            <td>Albi Boykhaair</td>
+                            <td>21</td>
+                            <td>Laki-Laki</td>
+                            <td class="text-blue-600">Vaksin</td>
+                            <td>Napar</td>
+                        </tr>
+                        <tr class="navbar-bg-color ">
+                            <td>Fajrul Ichsan Kamil</td>
+                            <td>21</td>
+                            <td>Laki-Laki</td>
+                            <td class="text-red-600">Positif</td>
+                            <td>Parik mungko aia</td>
+                        </tr>
+                        <tr class="bg-body  ">
+                            <td>Albi Boykhaair</td>
+                            <td>21</td>
+                            <td>Laki-Laki</td>
+                            <td class="text-blue-600">Vaksin</td>
+                            <td>Napar</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <!-- button download -->
+            <!-- <div class="flex flex-row justify-end mt-5 ">
+                <button class="w-auto text-xl rounded-xl px-8 py-2 bg-download font-semibold ">
+                    <div class="flex flex-row space-x-3">
+                        <img class="inline h-8 w-8 " src="img/download.png" alt="">
+                        <h1 class="inline mt-1 font-semibold text-xl">Download</h1>
+                    </div>
+                </button>
+            </div> -->
+        </div>
+    </div>
+
+
+    <!-- artikel -->
+    <div class="grid grid-cols-1 grid-rows-1 md:px-24 mt-3 md:mt-10 px-3 ">
+        <div class="w-full mt-5 relative artikel-heigth">
+            <div
+                class="w-auto absolute bg-body text-xs md:text-xl px-9 md:px-12 py-1 md:py-2 font-medium text-white right-5 md:right-16 top-5 md:top-12 rounded-xl">
+                Artikel</div>
+            <img class="w-full artikel-heigth" src="img/artikel.png" alt="">
+            <div
+                class=" w-1/2 absolute text-sm md:text-5xl text-right leading-tight font-semibold text-white top-28 right-6 md:top-60 md:right-6">
+                Efektivitas Vaksinasi Dalam Pemutusan Rantai Penularan Covid-19
+            </div>
+            <div
+                class="flex flex-row w-full h-auto absolute bottom-5 md:bottom-10 space-x-2 md:space-x-3 justify-end px-6 md:px-24 ">
+                <div class="bg-gray-300 rounded-full md:w-6 md:h-6 w-3 h-3"></div>
+                <div class="bg-gray-600 rounded-full md:w-6 md:h-6 w-3 h-3"></div>
+                <div class="bg-gray-300 rounded-full md:w-6 md:h-6 w-3 h-3"></div>
+                <div class="bg-gray-300 rounded-full md:w-6 md:h-6 w-3 h-3"></div>
+                <div class="bg-gray-300 rounded-full md:w-6 md:h-6 w-3 h-3"></div>
+                <div class="bg-gray-300 rounded-full md:w-6 md:h-6 w-3 h-3"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact us -->
+    <div class=" grid grid-cols-1 grid-rows-1 px-3 md:px-24  ">
+        <div class="rounded-xl md:rounded-2xl bg-contact mt-7 md:mt-10 py-5 md:py-10 h-auto ">
+            <div class="flex flex-row justify-center">
+                <h1 class="text-xl md:text-4xl text-white font-semibold underline"> Contact US</h1>
+            </div>
+            <div class="w-full h-auto space-x-16 md:space-x-40 justify-center pt-5 md:pt-10  flex flex-row">
+                <img class="w-16 h-16 md:w-36 md:h-36" src="img/logo payakumbuh.png" alt="">
+                <img class="w-16 h-16 md:w-36 md:h-36" src="img/Group 1.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-1 grid-rows-1 bg-body mt-8 pb-3 md:mt-20 ">
+        <div class="flex flex-row justify-center space-x-5 ">
+            <img class="w-10 h-10 md:w-28 md:h-28" src="img/logo unand 1.png" alt="">
+            <img class="w-10 h-10 md:w-28 md:h-28" src="img/Logo KKN Unand 2021 1.png" alt="">
+        </div>
+        <h1 class="text-center text-white text-xs md:text-lg">https://unand.ac.id/id/</h1>
+        <h1 class="text-center text-white text-xs md:text-lg">2021 @ All right reserved by <span class="font-bold">
+                mahasiswa KKN Unand Sungai Durian.</span>
+        </h1>
+    </div>
+
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+</body>
+
+</html>
