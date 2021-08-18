@@ -110,6 +110,10 @@ img {
         background-size: cover;
         background-position: center;
     }
+
+    .mt-fix{
+        margin-top: -5em;
+    }
 }
 
 
